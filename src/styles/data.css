@@ -1,0 +1,25 @@
+#main {
+    padding: 20px;
+}
+
+#table {
+    font: 16px;
+}
+
+@media (max-width: 768px) {
+    #table {
+        font-size: 10px;
+    }
+    #main {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    #table {
+        font-size: 8px;
+    }
+    #main {
+        padding: 8px;
+    }
+}
